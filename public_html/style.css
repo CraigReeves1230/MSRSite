@@ -1,0 +1,87 @@
+
+
+body {
+    background-image: url("background.jpg");
+    margin:0px;
+    padding:0px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.main-navigation {
+    background-color: dimgray;
+    height: 40px;
+    width: 100%;
+    position: relative;
+    font-family: arial, sans-serif;
+}
+
+.main-navigation ul {
+    font-weight: bold;
+    position: absolute;
+    list-style-type: none;
+    margin:0px;
+    padding:0px;
+    width: 100%;
+    top: 12px;
+    left: 480px;
+}
+
+.main-navigation ul li {
+    margin-right: 65px;
+    float: left;
+}
+
+.main-navigation ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-navigation ul li a:hover{
+    color: yellow;
+}
+
+#MSRLogo {
+    position:relative;
+    left:240px;
+}
+
+.wrapper {
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 12px;
+    padding-left: 36px;
+    padding-right: 36px;
+    font-family: arial, sans-serif;
+    height: 100vh;
+    background-color: white;
+    position: relative;
+}
+
+.newsupdates h1 {
+    width: 35%;
+    //border-bottom: black solid 3px;
+    background-color: slategray;
+    color: white;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.updateslist {
+    width: 35%;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+}
+
+.updateslist li {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: solid 1px darkgray; 
+}
+
+.updateslist li a:hover {
+    color: red;
+}
